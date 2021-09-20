@@ -17,7 +17,7 @@ all_states = data.state.to_list()
 guessed_states = []
     
 while len(guessed_states) < 50:    
-#     answer_state = screen.textinput(title=f"{len(guessed_states)}/50 states correct",
+    answer_state = screen.textinput(title=f"{len(guessed_states)}/50 states correct",
 #                                                 prompt="What's another state name?").title()
     
 #     if answer_state == "Exit":
