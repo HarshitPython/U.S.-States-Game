@@ -1,6 +1,6 @@
-# from os import stat
-# import turtle
-# import pandas as pd
+from os import stat
+import turtle
+import pandas as pd
 
 # screen = turtle.Screen()
 # screen.title("US States Quiz Game")
