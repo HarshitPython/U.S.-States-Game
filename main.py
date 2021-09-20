@@ -11,8 +11,8 @@ screen.addshape(image)
 
 turtle.shape(image)
 
-# data = pd.read_csv("50_states.csv")
-# all_states = data.state.to_list()
+data = pd.read_csv("50_states.csv")
+all_states = data.state.to_list()
 
 # guessed_states = []
     
