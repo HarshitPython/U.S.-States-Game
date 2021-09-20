@@ -5,8 +5,8 @@ import pandas as pd
 screen = turtle.Screen()
 screen.title("US States Quiz Game")
 
-# image = "blank_states_img.gif"
-# screen.addshape(image)
+image = "blank_states_img.gif"
+screen.addshape(image)
 
 
 # turtle.shape(image)
