@@ -21,7 +21,7 @@ while len(guessed_states) < 50:
                                                 prompt="What's another state name?").title()
     
     if answer_state == "Exit":
-#         missing_states = [state for state in all_states if state not in guessed_states]
+        missing_states = [state for state in all_states if state not in guessed_states]
 #         # for state in all_states:
 #         #     if state not in guessed_states:
 #         #         missing_states.append(state)
