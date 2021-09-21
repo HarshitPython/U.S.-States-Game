@@ -26,7 +26,7 @@ while len(guessed_states) < 50:
        
         
         new_data = pd.DataFrame(missing_states)
-#         new_data.to_csv("states to learn.csv")
+        new_data.to_csv("states to learn.csv")
 #         break
 
         
