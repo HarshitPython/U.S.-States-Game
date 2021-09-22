@@ -36,6 +36,6 @@ while len(guessed_states) < 50:
         t.penup()
         state_data = data[data.state == answer_state]
         t.goto(int(state_data.x), int(state_data.y))
-#         t.write(answer_state)
+        t.write(answer_state)
 
 
